@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Principal</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="archivo.js"></script>
 </head>
 <body>
 
@@ -37,7 +38,7 @@
             <li>
                 <a href="alta.html">Alta</a>
             </li>
-            <li contenedor>
+            <li id="contenedor" >
                 <a href="javascript:abrir()">Registrarse</a>
             </li>
         </ul>
@@ -47,18 +48,18 @@
            <a href="javascript:abrir()"> <img src="./assets/img/error (2).png" alt="cerrar"></a>
         </div>
         REGISTRATE
-        <div style="margin-top: 30px;">s
+        <div style="margin-top: 30px;">
         <form action="Direccion" method="post">
-            <label for="nombre"> Nombre: </label>  <br>
+            <label for="Nombr"> Nombre: </label>  <br>
             <input type="text" name="nombre" class="contact"> <br><br>
 
-            <label for="email"> Email: </label>  <br>
+            <label for="Email"> Email: </label>  <br>
             <input type="email" name="email" class="contact"> <br><br>
             
-            <label for="Contraseña"> Contraseña:   </label> <br>
+            <label for="Contr"> Contraseña:   </label> <br>
                 <input type="text" name="Contraseña" class="contact"><br> <br>
                         
-                <input type="button" value="Enviar" class="boton">
+                <a href="nosotros.html"> <input type="button" value="Enviar"  id="alert" class="boton"></a>
                 <hr>
                 <p>Para cerrar presione alguno de los atajos <br>
                 Nosotros--Servivios--Contacto--Alta</p>
@@ -76,7 +77,7 @@
     </script>
 <main>
     <h1 class="Patro">
-        Patrocinadores:
+        Patrocinadores de primer nivel: 
         </h1> 
         <div class="patroN">
         <p style="font-size:larger;">Nike / Whey Protein</p>
@@ -121,9 +122,8 @@
         -Remeras Hom/Muj <br>
         -Shorts <br>
         -Guantes
-        <hr>
         </p>
-        
+        <hr>
         </section>
 </main>
 

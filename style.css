@@ -76,7 +76,7 @@ h2{
         font-weight: bold;  
         writing-mode: vertical-rl; 
         transform: rotate(-180deg); 
-        flex-direction: column;
+        display: flex;
         margin-left: 77px;
         font-size: 70px;
         background-color:  #eeeeee;
@@ -91,9 +91,7 @@ h2{
     color: rgb(0, 0, 0);
     font-weight: bold;  
     writing-mode: vertical-rl; 
-    transform: rotate(-180deg); 
-    margin-top: 5px;
-    
+    transform: rotate(-180deg);    
     flex-direction: column;
     font-size: 50px;
     background-color:  #eeeeee;
@@ -153,8 +151,8 @@ p{
     background-color: #000000;
 }
 .hpro{
-    background-color: style="background-color:#e3e3e3 20%;
-    font-size: 40px;
+    background-color: style="background-color:#e3e3e3 20%";
+    font-size: 60px;
 }
 
 .productosW{
@@ -198,7 +196,7 @@ p{
     flex-direction: column;
     justify-content: center;
     color: black;
-    margin-left: 47%;
+    margin-left: 42%;
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
@@ -208,6 +206,13 @@ p{
 .w1{
     margin-bottom: 10px;
     text-align: center;
+}
+.w1 img{
+    width: 250px;
+}
+.n1 img{
+    width: 200px;
+   
 }
 
 .p1{
@@ -221,6 +226,8 @@ p{
     text-align: center;
     
 }
+
+
 
 footer{
     color: black;
@@ -254,7 +261,7 @@ footer{
     border-radius: 22px;
     position: absolute;
     left: 35%;
-    top: 20%;
+    top: 40%;
     display: none;
 }
 #cerrar{position: absolute;
