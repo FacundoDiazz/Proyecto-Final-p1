@@ -26,19 +26,51 @@
         <nav>
         <ul class="atajos">
             <li>
-                <a href="./nosotros.html">Nosotros</a>
+                <a href="./nosotros.html">Inicio</a>
             </li>
             <li>
-                <a href="./index.html">servicios</a>
+                <a href="./index.html">Tienda</a>
             </li>
             <li>
                 <a href="./contacto.html">Contacto</a>
             </li>
             <li>
-                <a href="./login.html">Registrarse</a>
+                <a href="alta.html">Alta</a>
+            </li>
+            <li contenedor>
+                <a href="javascript:abrir()">Registrarse</a>
             </li>
         </ul>
     </nav>
+    <div class="ventana" id="vent">
+        <div id="cerrar">
+           <a href="javascript:abrir()"> <img src="./assets/img/error (2).png" alt="cerrar"></a>
+        </div>
+        REGISTRATE
+        <div style="margin-top: 30px;">s
+        <form action="Direccion" method="post">
+            <label for="nombre"> Nombre: </label>  <br>
+            <input type="text" name="nombre" class="contact"> <br><br>
+
+            <label for="email"> Email: </label>  <br>
+            <input type="email" name="email" class="contact"> <br><br>
+            
+            <label for="Contraseña"> Contraseña:   </label> <br>
+                <input type="text" name="Contraseña" class="contact"><br> <br>
+                        
+                <input type="button" value="Enviar" class="boton">
+        </form>
+    </div>
+    </div>
+    <script>
+        function abrir() {
+    document.getElementById("vent").style.display="block";
+}
+
+    function cerrar() {
+    document.getElementById("vent") .style.display="none";
+}
+    </script>
 <main>
     <h1 class="Patro">
         Patrocinadores:
@@ -72,18 +104,23 @@
         <h2 class="titu">Tienda</h2>
         <h2>Whey Protein</h2>
         <p>
-        Contamos con variedades de productos de esta marca
-        <br>
-        -Ganador de masa muscular
-        <br>
-        -BCAA
-        <br>
-        -Proteina Aislada 
-        <br>
+        Contamos con variedades de productos de esta marca <br>      
+        -Ganador de masa muscular <br>
+        -BCAA <br>       
+        -Proteina Aislada <br>        
         -Barrass de proteina
         </p>
-        <h2></h2>
-            </div>
+        <h2>Nike</h2>
+        <p>
+        Aqui podran encontrar utileria de entrenamiento <br>       
+        -Medias <br>
+        -Bolsos <br>
+        -Remeras Hom/Muj <br>
+        -Shorts <br>
+        -Guantes
+        <hr>
+        </p>
+        
         </section>
 </main>
 
@@ -94,12 +131,15 @@
     <div class="foot">
     <li>Dirección: Magallanes 1721</li>
     <li>Departamento de Montevideo</li> 
-    <li>Tel. 094317112</li> 
+    <li>Tel. 094317112</li>     
+    <hr>    
+    <h3>Nuestras Redes</h3>    
+    <div class="redes">
+    <img src="./assets/img/tw.jpg" alt="tw">
+    <img src="./assets/img/th.jpg" alt="ig">
     </div>
-    <hr>
-    <p>Nuestras redes</p>
-    
-
+    <p> @AthleteTransfotmation1891</p>
+    </div>
 </footer>
     
 </body>
