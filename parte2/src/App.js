@@ -9,6 +9,7 @@ import Contacto from './Contacto/contacto/Contacto.js';
 import {Routes, Route} from 'react-router-dom';
 import Login from './Login/Login.js';
 import Admin from './Admin/Admin.js';
+import Carrito from './Carrito/Carrito.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <Route path='/Alta' element={<Alta />} />
     <Route path='/Login' element={<Login />} />
     <Route path='/Admin' element={<Admin />} />
+    <Route path='/Carrito' element={<Carrito />} />
     <Route path='/Contacto' element={<Contacto/>} />
   </Routes>
 

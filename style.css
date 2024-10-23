@@ -98,6 +98,7 @@ h2{
     border-radius: 10px;
     padding-top: 13rem;
     padding-bottom: 13rem;
+    font-size:larger;
 }
 p{
     font-size: 25px;
@@ -267,4 +268,11 @@ footer{
 #cerrar{position: absolute;
     right: 2px;
     top:5px; 
+}
+
+.card {
+    margin-left: 35%;
+    margin-top: 15px;
+    padding: 5px;
+    width: 18rem;
 }

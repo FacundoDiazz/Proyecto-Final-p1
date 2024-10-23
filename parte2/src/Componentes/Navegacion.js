@@ -8,7 +8,7 @@ const Navegacion = () => {
             <nav>
                 <ul class="atajos">
                 <li>
-                  <Link to="/Nosotros">Nosotros</Link>
+                <Link to="/Nosotros">Nosotros</Link>
                 </li>
                 <li>
                     <Link to="/Ecomerce">Tienda</Link>
@@ -21,6 +21,12 @@ const Navegacion = () => {
                 </li>
                 <li>
                 <Link to="/Login">Registrarse</Link>
+                </li>
+                <li>
+                <Link to="/Carrito"> 
+                <i class="bi bi-cart-check">
+                </i>
+                </Link>
                 </li>
                 </ul>
             </nav>
