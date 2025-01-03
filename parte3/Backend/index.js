@@ -31,7 +31,7 @@ app.use(cors());
 
 app.use('/user' , routerUser);
 
-conexion(MONGO_LOCAL);
+conexion(MONGO_ATLAS);
 
 
 
